@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+model_training/checkpoints/
+model_training/data/
+model_training/data.yaml
+
+*.onnx
+!inference_engine/models/sentinel_v1.onnx
+
+node_modules/

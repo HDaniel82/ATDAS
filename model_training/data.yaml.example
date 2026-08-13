@@ -1,0 +1,5 @@
+path: data/threat_dataset
+names:
+  - person
+  - vehicle
+  - weapon

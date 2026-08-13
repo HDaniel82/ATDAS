@@ -1,0 +1,9 @@
+services:
+  model_training:
+    build:
+      context: ./model_training
+    volumes:
+      - .:/repo
+    working_dir: /repo/model_training
+    entrypoint: ["python"]
+    command: ["train.py", "--help"]
